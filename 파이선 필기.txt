@@ -1,0 +1,27 @@
+__init__(self):
+self.a = 0
+slef.__a = 비공개 어트리뷰트 속성
+
+@classmethod
+@staticmethod
+
+
+try:
+    실행할 코드
+except:
+    예외가 발생했을 때 처리하는 코드
+else:
+    예외가 발생하지 않았을 때 실행할 코드
+finally:
+    예외 발생 여부와 상관없이 항상 실행할 코드
+
+
+시퀀스 연속성 딕셔는 안됌
+
+def number_generator():
+    yield 0
+    yield 1
+    yield 2
+ 
+for i in number_generator():
+    print(i)
